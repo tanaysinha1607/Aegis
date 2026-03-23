@@ -1,0 +1,18 @@
+# Example excerpt from `python main.py` (values vary by seed / run)
+
+[5] Evaluation (AUC-ROC on held-out users)...
+    Transformer AUC: 0.85–0.99
+    GNN (user-level) AUC: 0.52–0.75
+    Fused AUC: 0.85–0.99
+
+[6] RAG explanation (sample transaction)...
+    Latency: 2–45s (first run downloads MiniLM + DistilGPT-2; later runs are faster)
+    Explanation: <2–3 sentences tying amount/device/merchant to retrieved narratives>
+
+[7] Resilience stress testing (subset of test batch)...
+    Mean resilience factor: 0.90–0.99
+    Plot: outputs/resilience_plot.png
+
+    Saved checkpoint for dashboard / reuse: outputs/checkpoint.pt
+
+Done.

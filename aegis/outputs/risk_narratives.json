@@ -1,0 +1,242 @@
+[
+  {
+    "narrative_id": "nar_0000",
+    "text": "Fraud case: unusually high amount combined with first-time merchant and device never seen for this customer in the prior 90 days. Case reference nar_0000.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0001",
+    "text": "Past alert: velocity anomaly \u2014 multiple high-value purchases across new merchants within a short window. Case reference nar_0001.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0002",
+    "text": "Behavioral signal: merchant category shift from groceries to luxury with immediate high-ticket purchase. Case reference nar_0002.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0003",
+    "text": "Past alert: velocity anomaly \u2014 multiple high-value purchases across new merchants within a short window. Case reference nar_0003.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0004",
+    "text": "Past alert: velocity anomaly \u2014 multiple high-value purchases across new merchants within a short window. Case reference nar_0004.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0005",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0005.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0006",
+    "text": "Fraud case: unusually high amount combined with first-time merchant and device never seen for this customer in the prior 90 days. Case reference nar_0006.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0007",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0007.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0008",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0008.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0009",
+    "text": "Behavioral signal: merchant category shift from groceries to luxury with immediate high-ticket purchase. Case reference nar_0009.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0010",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0010.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0011",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0011.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0012",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0012.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0013",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0013.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0014",
+    "text": "Fraud case: unusually high amount combined with first-time merchant and device never seen for this customer in the prior 90 days. Case reference nar_0014.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0015",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0015.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0016",
+    "text": "Similar fraud: small baseline spend user suddenly charged a large amount at an electronics merchant using a new device. Case reference nar_0016.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0017",
+    "text": "Fraud case: unusually high amount combined with first-time merchant and device never seen for this customer in the prior 90 days. Case reference nar_0017.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0018",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0018.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0019",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0019.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0020",
+    "text": "Past alert: velocity anomaly \u2014 multiple high-value purchases across new merchants within a short window. Case reference nar_0020.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0021",
+    "text": "Past alert: velocity anomaly \u2014 multiple high-value purchases across new merchants within a short window. Case reference nar_0021.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0022",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0022.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0023",
+    "text": "Similar fraud: small baseline spend user suddenly charged a large amount at an electronics merchant using a new device. Case reference nar_0023.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0024",
+    "text": "Past alert: velocity anomaly \u2014 multiple high-value purchases across new merchants within a short window. Case reference nar_0024.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0025",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0025.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0026",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0026.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0027",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0027.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0028",
+    "text": "Fraud case: unusually high amount combined with first-time merchant and device never seen for this customer in the prior 90 days. Case reference nar_0028.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0029",
+    "text": "Past alert: velocity anomaly \u2014 multiple high-value purchases across new merchants within a short window. Case reference nar_0029.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0030",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0030.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0031",
+    "text": "Behavioral signal: merchant category shift from groceries to luxury with immediate high-ticket purchase. Case reference nar_0031.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0032",
+    "text": "Behavioral signal: merchant category shift from groceries to luxury with immediate high-ticket purchase. Case reference nar_0032.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0033",
+    "text": "Behavioral signal: merchant category shift from groceries to luxury with immediate high-ticket purchase. Case reference nar_0033.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0034",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0034.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0035",
+    "text": "Past alert: velocity anomaly \u2014 multiple high-value purchases across new merchants within a short window. Case reference nar_0035.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0036",
+    "text": "Past alert: velocity anomaly \u2014 multiple high-value purchases across new merchants within a short window. Case reference nar_0036.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0037",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0037.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0038",
+    "text": "Fraud case: unusually high amount combined with first-time merchant and device never seen for this customer in the prior 90 days. Case reference nar_0038.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0039",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0039.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0040",
+    "text": "Investigation summary: device fingerprint mismatch with historical sessions; location hop inconsistent with travel velocity. Case reference nar_0040.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0041",
+    "text": "Fraud case: unusually high amount combined with first-time merchant and device never seen for this customer in the prior 90 days. Case reference nar_0041.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0042",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0042.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0043",
+    "text": "Behavioral signal: merchant category shift from groceries to luxury with immediate high-ticket purchase. Case reference nar_0043.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0044",
+    "text": "Similar fraud: small baseline spend user suddenly charged a large amount at an electronics merchant using a new device. Case reference nar_0044.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0045",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0045.",
+    "risk_label": 1
+  },
+  {
+    "narrative_id": "nar_0046",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0046.",
+    "risk_label": 0
+  },
+  {
+    "narrative_id": "nar_0047",
+    "text": "Risk narrative: transaction at odd hours with amount spike versus the user's rolling median. Case reference nar_0047.",
+    "risk_label": 0
+  }
+]

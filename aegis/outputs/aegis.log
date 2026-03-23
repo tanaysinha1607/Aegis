@@ -1,0 +1,13 @@
+2026-03-23 10:39:14 | INFO | aegis | FAISS index built with 48 vectors of dim 384
+2026-03-23 10:39:55 | INFO | aegis | RAG latency: 41.442s (budget 13.0s)
+2026-03-23 10:39:55 | WARNING | aegis | RAG latency 41.442s exceeded budget 13.0s — consider smaller models or fewer tokens.
+2026-03-23 10:39:56 | INFO | aegis | Saved resilience plot to outputs/resilience_plot.png
+2026-03-23 10:39:56 | INFO | aegis | Resilience: mean=0.9738 | per-sample variance mean=0.030138
+2026-03-23 10:54:54 | INFO | aegis | FAISS index built with 48 vectors of dim 384
+2026-03-23 10:54:57 | INFO | aegis | RAG latency: 2.813s (budget 13.0s)
+2026-03-23 10:54:57 | INFO | aegis | Saved resilience plot to outputs/resilience_plot.png
+2026-03-23 10:54:57 | INFO | aegis | Resilience: mean=0.9694 | per-sample variance mean=0.034901
+2026-03-23 11:16:54 | INFO | aegis | FAISS index built with 48 vectors of dim 384
+2026-03-23 11:16:56 | INFO | aegis | RAG latency: 2.753s (budget 13.0s)
+2026-03-23 11:16:57 | INFO | aegis | Saved resilience plot to outputs/resilience_plot.png
+2026-03-23 11:16:57 | INFO | aegis | Resilience: mean=0.5216 | per-sample variance mean=3.693640

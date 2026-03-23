@@ -1,0 +1,75 @@
+# Aegis global configuration — tune for your environment
+
+seed: 42
+device: "cpu"  # set to "cuda" when GPU is available
+
+data:
+  num_users: 120
+  num_devices: 80
+  num_merchants: 60
+  locations:
+    - "US-NY"
+    - "US-CA"
+    - "US-TX"
+    - "UK-LON"
+    - "DE-BER"
+    - "SG"
+    - "IN-MUM"
+  transactions_per_user_min: 8
+  transactions_per_user_max: 24
+  fraud_ratio_hint: 0.18
+  output_dir: "outputs"
+  sample_csv: "outputs/sample_transactions.csv"
+  narratives_json: "outputs/risk_narratives.json"
+
+transformer:
+  seq_len: 16
+  d_model: 64
+  nhead: 4
+  num_layers: 2
+  dim_feedforward: 128
+  dropout: 0.1
+  num_locations: 32
+  epochs: 8
+  batch_size: 32
+  lr: 0.001
+  weight_decay: 0.0001
+
+gnn:
+  hidden_channels: 64
+  out_channels: 32
+  num_layers: 2
+  dropout: 0.2
+  model_type: "graphsage"  # graphsage | gat
+  epochs: 12
+  batch_size: 1  # full-graph training for small graphs
+  lr: 0.005
+  weight_decay: 0.0001
+
+fusion:
+  hidden_dim: 64
+  dropout: 0.15
+
+training:
+  train_ratio: 0.75
+  val_ratio: 0.1
+
+rag:
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  top_k: 4
+  max_context_chars: 2000
+  max_new_tokens: 48
+  generator_model: "distilgpt2"
+  latency_budget_seconds: 13.0
+  openai_model: "gpt-4o-mini"
+  # Set OPENAI_API_KEY in environment for OpenAI; otherwise HuggingFace local generator is used
+
+resilience:
+  num_scenarios: 12
+  noise_std_amount: 0.15
+  spike_multiplier: 4.0
+  plot_path: "outputs/resilience_plot.png"
+
+logging:
+  level: "INFO"
+  log_file: "outputs/aegis.log"
